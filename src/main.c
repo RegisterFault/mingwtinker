@@ -1,6 +1,12 @@
 #include <windows.h>
 #include <wchar.h>
 
+/*
+ * This code is a very slightly modified copy of Jan Bodnar's 
+ * tutorial at zetcode.com/gui/winapi/. He does an amazing job showing
+ * workable examples of win32api c programs that have helped me out.
+ */ 
+
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 void AddMenus(HWND);
 
